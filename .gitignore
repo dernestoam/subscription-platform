@@ -1,0 +1,14 @@
+# Secrets
+.env
+*.pem
+
+# Terraform
+*.tfstate
+*.tfstate.*
+.terraform/
+
+# Data and Python clutter
+data/
+__pycache__/
+.venv/
+.ipynb_checkpoints/
